@@ -1,20 +1,31 @@
+# IDE
+.idea/
+.vscode/
+
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
 .env
+.env.*
 
-# PyCharm / IDE
-.idea/
-
-# Builds / artefactos
+# Builds
 dist/
 build/
-*.exe
 *.whl
 *.tar.gz
+*.exe
 
-# Datos/audio
+# PyInstaller/Spec
+*.spec
+
+# Datos/audio/logs
+archive/
+*.log
+logs/
 *.m4a
 *.mp3
 *.wav
+ping_*.txt
