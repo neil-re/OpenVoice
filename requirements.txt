@@ -1,0 +1,7 @@
+faster-whisper==1.0.0
+ctranslate2==4.4.0
+tokenizers>=0.13.3
+sentencepiece
+tqdm
+numpy
+soundfile
